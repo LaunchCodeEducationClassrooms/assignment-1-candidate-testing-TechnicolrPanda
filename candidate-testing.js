@@ -44,7 +44,7 @@ function gradeQuiz(candidateAnswers) {
   }
   
   grade = (correct / 5) * 100
-  
+  return grade;
   console.log(`>>> Overall Grade: ${grade}% (${correct} of 5 responses correct) <<<`)
   if (grade >= 80){
     console.log(">>>Status: PASSED <<<")
